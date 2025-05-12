@@ -16,7 +16,7 @@ cd "$INPUT_DIR" || exit
 for prefix in $(ls *.png | sed -E 's/[0-9]+\.png$//' | sort | uniq); do
   echo "Processing sequence: $prefix"
 
-  NUM_FRAMES=$(ls ${prefix}*.png | wc -l)
+  NUM_FRAMES=$(ls ${prefix}*.png | wc -l | tr -d '[:space:]')
   CLEAN_PREFIX=$(echo "$prefix" | sed 's/[^a-zA-Z0-9_-]//g')
 
   # Calculate ideal columns per row based on width limit

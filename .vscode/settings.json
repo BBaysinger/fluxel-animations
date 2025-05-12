@@ -12,6 +12,7 @@
     "alphaextract",
     "alphamerge",
     "ffprobe",
+    "magick",
     "mogrify",
     "paletted",
     "rgbmatte"

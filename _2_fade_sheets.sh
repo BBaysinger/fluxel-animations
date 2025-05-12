@@ -2,7 +2,7 @@
 
 INPUT_DIR="_spritesheets1_raw"
 OUTPUT_DIR="_spritesheets2_faded"
-OPACITY_PERCENT=40
+OPACITY_PERCENT=30
 
 # Check for ImageMagick
 if ! command -v magick &> /dev/null; then

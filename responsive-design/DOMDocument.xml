@@ -1,9 +1,9 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundAlpha="0" width="16" height="12" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 24.0 build 73" majorVersion="24" buildNumber="73" viewAngle3D="1.73521543842023" vanishingPoint3DX="8" vanishingPoint3DY="6" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="26DD690CF54E4EA7AAA6B458356A785D">
      <media>
-          <DOMBitmapItem name="responsive-design.png" itemID="68215d2e-0000000a" sourceExternalFilepath="./LIBRARY/responsive-design.png" sourceLastImported="1747016903" sourcePlatform="macintosh" externalFileSize="347" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="responsive-design.png" bitmapDataHRef="M 2 1747017006.dat" frameRight="2080" frameBottom="200"/>
+          <DOMBitmapItem name="responsive-design.png" itemID="68219ddc-0000000b" sourceExternalFilepath="./LIBRARY/responsive-design.png" sourceLastImported="1747033481" sourcePlatform="macintosh" externalFileSize="382" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="responsive-design.png" bitmapDataHRef="M 2 1747033564.dat" frameRight="2080" frameBottom="200"/>
      </media>
      <symbols>
-          <Include href="scroller.xml" itemIcon="1" loadImmediate="false" itemID="68215d46-0000000c" lastModified="1747017030"/>
+          <Include href="scroller.xml" itemIcon="1" loadImmediate="false" itemID="68215d46-0000000c" lastModified="1747033583"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
@@ -12,7 +12,7 @@
                          <frames>
                               <DOMFrame index="0" duration="120" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="scroller" symbolType="graphic" centerPoint3DX="28" centerPoint3DY="6" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="scroller" selected="true" symbolType="graphic" centerPoint3DX="28" centerPoint3DY="6" loop="loop">
                                              <matrix>
                                                   <Matrix tx="16" ty="2"/>
                                              </matrix>

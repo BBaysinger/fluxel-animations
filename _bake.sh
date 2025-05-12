@@ -9,6 +9,13 @@ MATTE_COLOR="0x1f1f1fff"
 FPS=10
 LOOP=1
 
+# 🧪 Check for ImageMagick's mogrify command
+if ! command -v mogrify &> /dev/null; then
+  echo " ❌ ERROR: 'mogrify' (from ImageMagick) is not installed or not in PATH."
+  echo "     → Install with: brew install imagemagick"
+  exit 1
+fi
+
 mkdir -p "$OUTPUT_DIR"
 
 cd "$INPUT_DIR" || exit
@@ -44,10 +51,29 @@ for prefix in $(ls *.png | sed -E 's/[0-9]+\.png$//' | sort | uniq); do
   OUTPUT_NAME="${CLEAN_PREFIX}_w${WIDTH}h${HEIGHT}f${NUM_FRAMES}r${FPS}l${LOOP}.webp"
   OUTPUT_PATH="../$OUTPUT_DIR/$OUTPUT_NAME"
 
-  # Build sprite sheet (tile first, then overlay)
+  # 🔍 Detect and fix paletted PNGs if needed
+  NEEDS_CONVERSION=false
+  for img in ${prefix}*.png; do
+    if ffprobe -v error -select_streams v:0 -show_entries stream=pix_fmt -of csv=p=0 "$img" | grep -q '^pal8'; then
+      NEEDS_CONVERSION=true
+      break
+    fi
+  done
+
+  if [ "$NEEDS_CONVERSION" = true ]; then
+    echo " 🛠  Detected paletted PNGs — converting to RGBA..."
+    mogrify -format png -define png:color-type=6 ${prefix}*.png
+  fi
+
+  # ✅ Build sprite sheet with matte compositing and correct alpha
   ffmpeg -framerate "$FPS" -pattern_type glob -i "${prefix}*.png" \
-    -filter_complex "[0:v]format=rgba,colorchannelmixer=aa=0.4,tile=${TILE_COLUMNS}x${TILE_ROWS}[tiled];\
-                     color=${MATTE_COLOR}:s=${SPRITE_WIDTH}x${SPRITE_HEIGHT}[bg];\
-                     [bg][tiled]overlay=format=rgb" \
+    -filter_complex "\
+  [0:v] split=2 [raw][alpha_src]; \
+  [raw] tile=${TILE_COLUMNS}x${TILE_ROWS},format=rgba [fg]; \
+  color=${MATTE_COLOR}:s=${SPRITE_WIDTH}x${SPRITE_HEIGHT},format=rgba [bg]; \
+  [bg][fg] overlay=format=auto [rgbmatte]; \
+  [alpha_src] tile=${TILE_COLUMNS}x${TILE_ROWS},alphaextract,format=gray [a]; \
+  [rgbmatte][a] alphamerge \
+  " \
     -lossless 1 -compression_level 6 -frames:v 1 "$OUTPUT_PATH"
 done

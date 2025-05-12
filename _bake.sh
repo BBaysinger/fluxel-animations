@@ -34,14 +34,20 @@ for prefix in $(ls *.png | sed -E 's/[0-9]+\.png$//' | sort | uniq); do
 
   echo " → Layout: ${TILE_COLUMNS}x${TILE_ROWS} (${SPRITE_WIDTH}x${SPRITE_HEIGHT})"
 
+  # Skip if result exceeds WebP hard limits
+  if [ "$SPRITE_WIDTH" -gt 16383 ] || [ "$SPRITE_HEIGHT" -gt 16383 ]; then
+    echo " ❌ ERROR: Skipping $prefix — output image would exceed WebP limit (16383x16383)"
+    continue
+  fi
+
   # Construct metadata-rich filename
   OUTPUT_NAME="${CLEAN_PREFIX}_w${WIDTH}h${HEIGHT}f${NUM_FRAMES}r${FPS}l${LOOP}.webp"
   OUTPUT_PATH="../$OUTPUT_DIR/$OUTPUT_NAME"
 
-  # Build sprite sheet
+  # Build sprite sheet (tile first, then overlay)
   ffmpeg -framerate "$FPS" -pattern_type glob -i "${prefix}*.png" \
-    -filter_complex "[0:v]format=rgba,colorchannelmixer=aa=0.4[fg];\
+    -filter_complex "[0:v]format=rgba,colorchannelmixer=aa=0.4,tile=${TILE_COLUMNS}x${TILE_ROWS}[tiled];\
                      color=${MATTE_COLOR}:s=${SPRITE_WIDTH}x${SPRITE_HEIGHT}[bg];\
-                     [bg][fg]overlay=format=rgb,tile=${TILE_COLUMNS}x${TILE_ROWS}" \
+                     [bg][tiled]overlay=format=rgb" \
     -lossless 1 -compression_level 6 -frames:v 1 "$OUTPUT_PATH"
 done

@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shot" itemID="67bbf1e2-00000034" symbolType="graphic" lastModified="1740372948">
+  <timeline>
+    <DOMTimeline name="Shot" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Violet" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Violet" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="0.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

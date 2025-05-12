@@ -1,0 +1,9 @@
+
+logs
+*.log
+
+*.local
+
+.DS_Store
+
+/_sequences/

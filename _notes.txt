@@ -1,0 +1,76 @@
+Can't use videos because Safari doens't support alpha transparency, so make sprite sheets instead.
+
+
+ffmpeg -framerate 10 -i interactive-web%04d.png \
+  -vf "format=rgba,tile=104x1" -lossless 1 -compression_level 6 -frames:v 1 ../interactive-web.webp
+
+ffmpeg -framerate 10 -i javascript-typescript%04d.png \
+  -vf "format=rgba,tile=142x1" -lossless 1 -compression_level 6 -frames:v 1 ../javascript-typescript.webp
+
+ffmpeg -framerate 10 -i responsive-design%04d.png \
+  -vf "format=rgba,tile=121x1" -lossless 1 -compression_level 6 -frames:v 1 ../responsive-design.webp
+
+ffmpeg -framerate 10 -i single-page-applications%04d.png \
+  -vf "format=rgba,tile=154x1" -lossless 1 -compression_level 6 -frames:v 1 ../single-page-applications.webp
+
+ffmpeg -framerate 10 -i mobile-first%04d.png \
+  -vf "format=rgba,tile=82x1" -lossless 1 -compression_level 6 -frames:v 1 ../mobile-first.webp
+
+
+Single Page Applications
+Responsive Design
+JavaScript / TypeScript
+Interactive Web
+
+
+
+🧠 Modern Web Dev Concepts
+Progressive Enhancement
+Component Driven
+State Management
+Virtual DOM
+Static Generation
+Dynamic Routing
+Real-Time Data
+Global Styles
+Declarative Logic
+Atomic Design
+
+
+
+⚡ Technical Themes
+Frontend Architecture
+Build Tools
+Modular CSS
+Code Splitting
+Async Rendering
+API Integration
+Hook System
+Type Safety
+Edge Functions
+
+
+
+🎨 Design & UX
+User Interaction
+Visual Hierarchy
+Mobile First
+Semantic Markup
+Layout Engine
+Viewport Units
+
+
+
+💡 Conceptual / Meta
+Clean Abstractions
+Developer Experience
+Web Performance
+Accessibility First
+Open Standards
+Fluid Scaling
+DOM Control
+Pixel Fidelity
+
+
+
+

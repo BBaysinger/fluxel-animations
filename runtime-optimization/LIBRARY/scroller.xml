@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="scroller" itemID="682159f8-000001a3" symbolType="graphic" lastModified="1747016184">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="scroller" itemID="682159f8-000001a3" symbolType="graphic" lastModified="1747110395">
   <timeline>
     <DOMTimeline name="scroller" layerDepthEnabled="true">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="user-interface.png"/>
+                <DOMBitmapInstance selected="true" libraryItemName="runtime-optimization.png"/>
               </elements>
             </DOMFrame>
           </frames>

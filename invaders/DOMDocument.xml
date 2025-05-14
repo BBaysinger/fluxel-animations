@@ -2,17 +2,17 @@
      <media>
           <DOMBitmapItem name="invader-1a.png" itemID="68242adb-000000d7" sourceExternalFilepath="../invaders/LIBRARY/invader-a.png" sourceLastImported="1747202255" sourcePlatform="macintosh" externalFileSize="156" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="invader-1a.png" bitmapDataHRef="M 3 1747197649.dat" frameRight="220" frameBottom="160"/>
           <DOMBitmapItem name="invader-1b.png" itemID="682430f4-00000014" sourceExternalFilepath="../invaders/LIBRARY/invader-1b.png" sourceLastImported="1747201726" sourcePlatform="macintosh" externalFileSize="167" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="invader-1b.png" bitmapDataHRef="M 3 1747202292.dat" frameRight="220" frameBottom="160"/>
-          <DOMBitmapItem name="invader-2a.png" itemID="68243157-0000001c" sourceExternalFilepath="../invaders/LIBRARY/invader-2a.png" sourceLastImported="1747201967" sourcePlatform="macintosh" externalFileSize="155" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="invader-2a.png" bitmapDataHRef="M 5 1747202391.dat" frameRight="220" frameBottom="160"/>
-          <DOMBitmapItem name="invader-2b.png" itemID="68243141-00000018" sourceExternalFilepath="../invaders/LIBRARY/invader-2b.png" sourceLastImported="1747201984" sourcePlatform="macintosh" externalFileSize="168" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="invader-2b.png" bitmapDataHRef="M 4 1747202369.dat" frameRight="220" frameBottom="160"/>
+          <DOMBitmapItem name="invader-2a.png" itemID="68243b01-0000004d" sourceExternalFilepath="./LIBRARY/invader-2a.png" sourceLastImported="1747204714" sourcePlatform="macintosh" externalFileSize="148" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="invader-2a.png" bitmapDataHRef="M 6 1747204865.dat" frameRight="220" frameBottom="160"/>
+          <DOMBitmapItem name="invader-2b.png" itemID="68243b01-00000051" sourceExternalFilepath="./LIBRARY/invader-2b.png" sourceLastImported="1747204686" sourcePlatform="macintosh" externalFileSize="157" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="invader-2b.png" bitmapDataHRef="M 7 1747204865.dat" frameRight="220" frameBottom="160"/>
      </media>
      <symbols>
           <Include href="Invader1.xml" itemIcon="1" loadImmediate="false" itemID="68242ae7-000000d8" lastModified="1747202320"/>
-          <Include href="Invader2.xml" itemIcon="1" loadImmediate="false" itemID="68242aeb-000000d9" lastModified="1747202436"/>
+          <Include href="Invader2.xml" itemIcon="1" loadImmediate="false" itemID="68242aeb-000000d9" lastModified="1747204872"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;9&lt;/guideline&gt;&lt;guideline direction="v"&gt;7&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Invader1" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Invader1" color="#00FFFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="31" keyMode="9728">
                                    <elements/>
@@ -53,7 +53,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="90" keyMode="15872">
+                              <DOMFrame index="90" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Invader1" symbolType="graphic" centerPoint3DX="18.5" centerPoint3DY="3.5" loop="loop">
                                              <matrix>
@@ -67,11 +67,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Invader2" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="Invader2" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Invader2" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Invader2" selected="true" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="16" ty="2"/>
                                              </matrix>

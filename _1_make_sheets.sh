@@ -6,7 +6,6 @@ WIDTH=16
 HEIGHT=12
 MAX_WIDTH=4096   # Max sprite sheet width (pixels)
 FPS=10
-LOOP=1
 
 # Checks
 if ! command -v ffmpeg &> /dev/null; then
@@ -48,7 +47,7 @@ for prefix in $(ls *[0-9].png 2>/dev/null | sed -E 's/[0-9]+\.png$//' | sort | u
   fi
 
   TMP_PNG="../tmp_${CLEAN_PREFIX}.png"
-  OUTPUT_NAME="${CLEAN_PREFIX}_w${WIDTH}h${HEIGHT}f${NUM_FRAMES}r${FPS}l${LOOP}.webp"
+  OUTPUT_NAME="${CLEAN_PREFIX}_w${WIDTH}h${HEIGHT}f${NUM_FRAMES}.webp"
   OUTPUT_PATH="../$OUTPUT_DIR/$OUTPUT_NAME"
 
   # Step 1: Generate raw sprite sheet as PNG with unaltered RGBA

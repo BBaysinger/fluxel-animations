@@ -1,26 +1,16 @@
 Can't use videos because Safari doens't support alpha transparency, so make sprite sheets instead.
 
 
-ffmpeg -framerate 10 -i interactive-web%04d.png \
-  -vf "format=rgba,tile=104x1" -lossless 1 -compression_level 6 -frames:v 1 ../interactive-web.webp
 
-ffmpeg -framerate 10 -i javascript-typescript%04d.png \
-  -vf "format=rgba,tile=142x1" -lossless 1 -compression_level 6 -frames:v 1 ../javascript-typescript.webp
-
-ffmpeg -framerate 10 -i responsive-design%04d.png \
-  -vf "format=rgba,tile=121x1" -lossless 1 -compression_level 6 -frames:v 1 ../responsive-design.webp
-
-ffmpeg -framerate 10 -i single-page-applications%04d.png \
-  -vf "format=rgba,tile=154x1" -lossless 1 -compression_level 6 -frames:v 1 ../single-page-applications.webp
-
-ffmpeg -framerate 10 -i mobile-first%04d.png \
-  -vf "format=rgba,tile=82x1" -lossless 1 -compression_level 6 -frames:v 1 ../mobile-first.webp
-
-
+Current:
 Single Page Applications
 Responsive Design
 JavaScript / TypeScript
 Interactive Web
+
+
+ADD!:
+Progressive Enhancement
 
 
 

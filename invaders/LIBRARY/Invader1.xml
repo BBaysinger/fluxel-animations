@@ -1,12 +1,17 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Invader1" itemID="68242ae7-000000d8" symbolType="graphic" lastModified="1747200743">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Invader1" itemID="68242ae7-000000d8" symbolType="graphic" lastModified="1747202320">
   <timeline>
-    <DOMTimeline name="Invader1" layerDepthEnabled="true">
+    <DOMTimeline name="Invader1" currentFrame="5" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="invader-1a.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" duration="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="invader-1b.png"/>
               </elements>
             </DOMFrame>
           </frames>

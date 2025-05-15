@@ -10,14 +10,14 @@
           <Include href="Invader2.xml" itemIcon="1" loadImmediate="false" itemID="68242aeb-000000d9" lastModified="1747204872"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;9&lt;/guideline&gt;&lt;guideline direction="v"&gt;7&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="104" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;9&lt;/guideline&gt;&lt;guideline direction="v"&gt;7&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Invader1" color="#00FFFF" autoNamed="false">
+                    <DOMLayer name="Invader1" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="31" keyMode="9728">
+                              <DOMFrame index="0" duration="33" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="31" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="33" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Invader1" symbolType="graphic" loop="loop">
                                              <matrix>
@@ -29,7 +29,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="53" duration="16" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="55" duration="16" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Invader1" symbolType="graphic" firstFrame="4" centerPoint3DX="16.5" centerPoint3DY="6" loop="loop">
                                              <matrix>
@@ -41,7 +41,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="69" duration="21" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="71" duration="21" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Invader1" symbolType="graphic" centerPoint3DX="-2.5" centerPoint3DY="3.5" loop="loop">
                                              <matrix>
@@ -53,7 +53,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="90" keyMode="9728">
+                              <DOMFrame index="92" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Invader1" symbolType="graphic" centerPoint3DX="18.5" centerPoint3DY="3.5" loop="loop">
                                              <matrix>
@@ -67,11 +67,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Invader2" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Invader2" color="#00FFFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Invader2" selected="true" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Invader2" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="16" ty="2"/>
                                              </matrix>

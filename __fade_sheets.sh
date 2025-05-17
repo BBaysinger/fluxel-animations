@@ -21,7 +21,7 @@ for input_path in "$INPUT_DIR"/*.png; do
 
   echo "Fading $filename to ${OPACITY_PERCENT}% opacity..."
 
-  magick "$input_path" -alpha on -channel A \
-    -evaluate multiply $(echo "$OPACITY_PERCENT / 100" | bc -l) +channel \
-    "$output_path"
+magick "$input_path" -strip -alpha on -channel A \
+  -evaluate multiply $(echo "$OPACITY_PERCENT / 100" | bc -l) +channel \
+  "$output_path"
 done

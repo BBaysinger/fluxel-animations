@@ -22,8 +22,8 @@ for INPUT in "$INPUT_DIR"/*.png; do
 
   echo "Converting $FILENAME to WebP..."
 
-  # Convert PNG to WebP, preserving alpha channel (lossless)
-  magick "$INPUT" -define webp:lossless=true "$OUTPUT"
+  # Convert PNG to WebP
+  magick "$INPUT" -quality 0 "$OUTPUT"
 done
 
 echo "✅ WebP conversion complete for all files in $INPUT_DIR."

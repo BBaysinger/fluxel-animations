@@ -2,8 +2,6 @@
 
 INPUT_DIR="${1:-_input}"
 OUTPUT_DIR="${2:-_output}"
-WIDTH=16
-HEIGHT=12
 MAX_WIDTH=4096   # Max sprite sheet width (pixels)
 FPS=10
 
@@ -20,13 +18,27 @@ fi
 
 echo " ⚠️  Clearing output directory: $OUTPUT_DIR"
 rm -rf "$OUTPUT_DIR"/*
-cd "$INPUT_DIR" || exit
+mkdir -p "$OUTPUT_DIR"
+cd "$INPUT_DIR" || exit 1
 
 for prefix in $(ls *[0-9].png 2>/dev/null | sed -E 's/[0-9]+\.png$//' | sort | uniq); do
   echo "Processing sequence: $prefix"
 
   NUM_FRAMES=$(ls ${prefix}*.png | wc -l | tr -d '[:space:]')
   CLEAN_PREFIX=$(echo "$prefix" | sed 's/[^a-zA-Z0-9_-]//g')
+
+  # Detect dimensions from first frame
+  FIRST_FRAME=$(ls ${prefix}*.png | head -n 1)
+  if [ ! -f "$FIRST_FRAME" ]; then
+    echo " ❌ ERROR: No frame found for $prefix"
+    continue
+  fi
+
+  DIMENSIONS=$(magick identify -format "%w %h" "$FIRST_FRAME")
+  WIDTH=$(echo "$DIMENSIONS" | cut -d' ' -f1)
+  HEIGHT=$(echo "$DIMENSIONS" | cut -d' ' -f2)
+
+  echo " → Frame size: ${WIDTH}x${HEIGHT}"
 
   MAX_COLUMNS=$((MAX_WIDTH / WIDTH))
   if [ "$NUM_FRAMES" -le "$MAX_COLUMNS" ]; then

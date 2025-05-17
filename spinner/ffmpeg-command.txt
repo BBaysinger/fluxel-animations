@@ -1,0 +1,1 @@
+ffmpeg -framerate 30 -i %04d.png -vf "scale=144:-1,format=rgba" -compression_level 7 -preset default -loop 0 output.webp

@@ -1,16 +1,16 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundAlpha="0" width="16" height="12" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 24.0 build 73" majorVersion="24" buildNumber="73" viewAngle3D="1.73521543842023" vanishingPoint3DX="8" vanishingPoint3DY="6" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="26DD690CF54E4EA7AAA6B458356A785D">
      <media>
-          <DOMBitmapItem name="runtime-optimization.png" itemID="6822c9df-0000000a" sourceExternalFilepath="./LIBRARY/runtime-optimization.png" sourceLastImported="1747110293" sourcePlatform="macintosh" externalFileSize="398" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="runtime-optimization.png" bitmapDataHRef="M 2 1747110367.dat" frameRight="2260" frameBottom="200"/>
+          <DOMBitmapItem name="runtime-optimization.png" itemID="68342ce6-00000026" sourceExternalFilepath="../runtime-optimization/LIBRARY/runtime-optimization.png" sourceLastImported="1748249767" sourcePlatform="macintosh" externalFileSize="395" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="runtime-optimization.png" bitmapDataHRef="M 2 1748249830.dat" frameRight="2240" frameBottom="200"/>
      </media>
      <symbols>
-          <Include href="scroller.xml" itemIcon="1" loadImmediate="false" itemID="682159f8-000001a3" lastModified="1747110395"/>
+          <Include href="scroller.xml" itemIcon="1" loadImmediate="false" itemID="682159f8-000001a3" lastModified="1748249832"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="68" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="128" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
                          <frames>
-                              <DOMFrame index="0" duration="129" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="0" duration="128" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="scroller" selected="true" symbolType="graphic" centerPoint3DX="28" centerPoint3DY="6" loop="loop">
                                              <matrix>
@@ -22,11 +22,11 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="129" keyMode="9728">
+                              <DOMFrame index="128" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="scroller" symbolType="graphic" centerPoint3DX="-101" centerPoint3DY="6" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="scroller" selected="true" symbolType="graphic" centerPoint3DX="-100" centerPoint3DY="6" loop="loop">
                                              <matrix>
-                                                  <Matrix tx="-113" ty="2"/>
+                                                  <Matrix tx="-112" ty="2"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="12" y="4"/>

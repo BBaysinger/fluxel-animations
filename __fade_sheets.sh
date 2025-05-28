@@ -2,7 +2,7 @@
 
 INPUT_DIR="grid_sheets1_raw"
 OUTPUT_DIR="grid_sheets2_faded"
-OPACITY_PERCENT=25
+OPACITY_PERCENT=15
 
 # Check for ImageMagick
 if ! command -v magick &> /dev/null; then

@@ -1,0 +1,372 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="EnergyBars" itemID="683947f2-0000004d" symbolType="graphic" lastModified="1748584434">
+  <timeline>
+    <DOMTimeline name="EnergyBars" currentFrame="1" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-500 -505S2|500 -505!500 -505|500 0!500 0|-500 0!-500 0|-500 -505"/>
+                        <Edge cubics="!-500 -505(;-500,-505 500,-505 500,-505q-500 -505 500 -505);"/>
+                        <Edge cubics="!500 -505(;500,-505 500,0 500,0q500 -505 500 0);"/>
+                        <Edge cubics="!500 0(;500,0 -500,0 -500,0q500 0 -500 0);"/>
+                        <Edge cubics="!-500 0(;-500,0 -500,-505 -500,-505q-500 0 -500 -505);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -662S1|500 -662!500 -662|500 -1115!500 -1115|-500 -1115!-500 -1115|-500 -662"/>
+                        <Edge cubics="!-500 -662(;-500,-662 500,-662 500,-662q-500 -662 500 -662);"/>
+                        <Edge cubics="!500 -662(;500,-662 500,-1115 500,-1115q500 -662 500 -1115);"/>
+                        <Edge cubics="!500 -1115(;500,-1115 -500,-1115 -500,-1115q500 -1115 -500 -1115);"/>
+                        <Edge cubics="!-500 -1115(;-500,-1115 -500,-662 -500,-662q-500 -1115 -500 -662);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -1324S1|500 -1324!500 -1324|500 -1726!500 -1726|-500 -1726!-500 -1726|-500 -1324"/>
+                        <Edge cubics="!-500 -1324(;-500,-1324 500,-1324 500,-1324q-500 -1324 500 -1324);"/>
+                        <Edge cubics="!500 -1324(;500,-1324 500,-1726 500,-1726q500 -1324 500 -1726);"/>
+                        <Edge cubics="!500 -1726(;500,-1726 -500,-1726 -500,-1726q500 -1726 -500 -1726);"/>
+                        <Edge cubics="!-500 -1726(;-500,-1726 -500,-1324 -500,-1324q-500 -1726 -500 -1324);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -1986S1|500 -1986!500 -1986|500 -2336!500 -2336|-500 -2336!-500 -2336|-500 -1986"/>
+                        <Edge cubics="!-500 -1986(;-500,-1986 500,-1986 500,-1986q-500 -1986 500 -1986);"/>
+                        <Edge cubics="!500 -1986(;500,-1986 500,-2336 500,-2336q500 -1986 500 -2336);"/>
+                        <Edge cubics="!500 -2336(;500,-2336 -500,-2336 -500,-2336q500 -2336 -500 -2336);"/>
+                        <Edge cubics="!-500 -2336(;-500,-2336 -500,-1986 -500,-1986q-500 -2336 -500 -1986);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -2648S1|500 -2648!500 -2648|500 -2947!500 -2947|-500 -2947!-500 -2947|-500 -2648"/>
+                        <Edge cubics="!-500 -2648(;-500,-2648 500,-2648 500,-2648q-500 -2648 500 -2648);"/>
+                        <Edge cubics="!500 -2648(;500,-2648 500,-2947 500,-2947q500 -2648 500 -2947);"/>
+                        <Edge cubics="!500 -2947(;500,-2947 -500,-2947 -500,-2947q500 -2947 -500 -2947);"/>
+                        <Edge cubics="!-500 -2947(;-500,-2947 -500,-2648 -500,-2648q-500 -2947 -500 -2648);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -3310S1|500 -3310!500 -3310|500 -3558!500 -3558|-500 -3558!-500 -3558|-500 -3310"/>
+                        <Edge cubics="!-500 -3310(;-500,-3310 500,-3310 500,-3310q-500 -3310 500 -3310);"/>
+                        <Edge cubics="!500 -3310(;500,-3310 500,-3558 500,-3558q500 -3310 500 -3558);"/>
+                        <Edge cubics="!500 -3558(;500,-3558 -500,-3558 -500,-3558q500 -3558 -500 -3558);"/>
+                        <Edge cubics="!-500 -3558(;-500,-3558 -500,-3310 -500,-3310q-500 -3558 -500 -3310);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -3972S1|500 -3972!500 -3972|500 -4168!500 -4168|-500 -4168!-500 -4168|-500 -3972"/>
+                        <Edge cubics="!-500 -3972(;-500,-3972 500,-3972 500,-3972q-500 -3972 500 -3972);"/>
+                        <Edge cubics="!500 -3972(;500,-3972 500,-4168 500,-4168q500 -3972 500 -4168);"/>
+                        <Edge cubics="!500 -4168(;500,-4168 -500,-4168 -500,-4168q500 -4168 -500 -4168);"/>
+                        <Edge cubics="!-500 -4168(;-500,-4168 -500,-3972 -500,-3972q-500 -4168 -500 -3972);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -4635S1|500 -4635!500 -4635|500 -4779!500 -4779|-500 -4779!-500 -4779|-500 -4635"/>
+                        <Edge cubics="!-500 -4635(;-500,-4635 500,-4635 500,-4635q-500 -4635 500 -4635);"/>
+                        <Edge cubics="!500 -4635(;500,-4635 500,-4779 500,-4779q500 -4635 500 -4779);"/>
+                        <Edge cubics="!500 -4779(;500,-4779 -500,-4779 -500,-4779q500 -4779 -500 -4779);"/>
+                        <Edge cubics="!-500 -4779(;-500,-4779 -500,-4635 -500,-4635q-500 -4779 -500 -4635);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -5297S1|500 -5297!500 -5297|500 -5390!500 -5390|-500 -5390!-500 -5390|-500 -5297"/>
+                        <Edge cubics="!-500 -5297(;-500,-5297 500,-5297 500,-5297q-500 -5297 500 -5297);"/>
+                        <Edge cubics="!500 -5297(;500,-5297 500,-5390 500,-5390q500 -5297 500 -5390);"/>
+                        <Edge cubics="!500 -5390(;500,-5390 -500,-5390 -500,-5390q500 -5390 -500 -5390);"/>
+                        <Edge cubics="!-500 -5390(;-500,-5390 -500,-5297 -500,-5297q-500 -5390 -500 -5297);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728" rigPropagationMatrix='{"a":120586,"b":0,"c":0,"d":65536,"tx":0,"ty":0}'>
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="1.83999633789062"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="1.83999633789062"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.176605224609375" c="-0.132339477539062" d="0" ty="-149.85"/>
+                            </matrix>
+                            <GradientEntry color="#660099" ratio="0"/>
+                            <GradientEntry color="#E1A500" ratio="0.364705882352941"/>
+                            <GradientEntry color="#FFFF00" ratio="0.705882352941177"/>
+                            <GradientEntry color="#8DB528" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!-500 -6000S1|-500 -5959!-500 -5959|500 -5959!500 -5959|500 -6000!500 -6000|-500 -6000"/>
+                        <Edge cubics="!-500 -6000(;-500,-6000 -500,-5959 -500,-5959q-500 -6000 -500 -5959);"/>
+                        <Edge cubics="!-500 -5959(;-500,-5959 500,-5959 500,-5959q-500 -5959 500 -5959);"/>
+                        <Edge cubics="!500 -5959(;500,-5959 500,-6000 500,-6000q500 -5959 500 -6000);"/>
+                        <Edge cubics="!500 -6000(;500,-6000 -500,-6000 -500,-6000q500 -6000 -500 -6000);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

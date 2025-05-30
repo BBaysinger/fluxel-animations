@@ -1,0 +1,770 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundAlpha="0" width="92" height="300" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 24.0 build 73" majorVersion="24" buildNumber="73" viewAngle3D="9.95314604373505" vanishingPoint3DX="46" vanishingPoint3DY="150" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="1251BE34E9F54363830E6548CFAB1FCC">
+     <symbols>
+          <Include href="EnergyBars.xml" itemIcon="1" loadImmediate="false" itemID="683947f2-0000004d" lastModified="1748584434"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="109" layerDepthEnabled="true">
+               <layers>
+                    <DOMLayer name="Layer_1" color="#0000FF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="110" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_2" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" duration="11" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="11" duration="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="278" ty="392.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="21" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="31" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="41" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="51" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="61" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.6015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="71" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.69921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="81" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="91" duration="19" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_3" color="#FF800A">
+                         <frames>
+                              <DOMFrame index="0" duration="22" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="22" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="32" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="42" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="52" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="62" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="72" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.6015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="82" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.69921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="92" duration="18" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.69921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_4" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" duration="33" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="33" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="43" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="53" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="63" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="73" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="83" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="93" duration="17" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_5" color="#009999">
+                         <frames>
+                              <DOMFrame index="0" duration="44" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="44" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="54" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="64" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="74" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="84" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="94" duration="16" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_6" color="#FF0000">
+                         <frames>
+                              <DOMFrame index="0" duration="55" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="55" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="65" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="75" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="85" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="95" duration="15" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_7" color="#669900">
+                         <frames>
+                              <DOMFrame index="0" duration="66" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="66" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="76" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="86" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="96" duration="14" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_8" color="#FF4F4F">
+                         <frames>
+                              <DOMFrame index="0" duration="77" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="77" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="87" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="97" duration="13" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.30078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_9" color="#00FFFF">
+                         <frames>
+                              <DOMFrame index="0" duration="88" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="88" duration="10" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="98" duration="12" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.19921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_10" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" duration="99" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="99" duration="11" keyMode="9728" rigPropagationMatrix='{"a":-65536,"b":0,"c":0,"d":-65536,"tx":0,"ty":0}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="EnergyBars" symbolType="graphic" centerPoint3DX="46" centerPoint3DY="149.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-1" d="-1" tx="46" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-12.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

@@ -1,5 +1,6 @@
 Can't use videos because Safari doens't support alpha transparency, so make sprite sheets instead.
 
+If using Photoshop, Export > Layer Comps to Files, and do NOT check the 'File Name Prefix' option, because multiple sequence numbers in the file names will prevent the script from identifying the sequence.
 
 
 Current:
